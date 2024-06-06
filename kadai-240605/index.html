@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>練習</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div id="app" class="wrapper">
+      <h1 class="title">Image Uploader</h1>
+    </div>
+
+
+    <form id="upload-form">
+        <input type="file" id="image-input" accept="image/*"><br>
+        <button>Upload</button>
+    </form>
+    <br><br><br>
+    <button id="delete">Delete</button>
+
+    <div id="image-list"></div>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
